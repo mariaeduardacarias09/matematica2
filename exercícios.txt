@@ -1,0 +1,21 @@
+
+let nome = prompt ("qual é o nome?");
+
+if(nome === "maria eduarda"){
+    console.log("professor");
+}else if(nome === "nadiele"){
+    console.log("professora");
+}else{
+    console.log("alunos");
+}
+
+let cor = prompt("digite uma cor:");
+if (cor ==="azul") {
+     console.log ("cor fria");
+}else if (cor ==="vermelho") {
+    console.log("cor quente");
+}else if (cor === "verde") {
+    console.log("cor natural");
+}else {
+    console.log("cor invalida");
+}
